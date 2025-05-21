@@ -72,48 +72,37 @@
 
     <mj-section>
       <mj-column>
-        <mj-text align="center">
-            <h2>Rellena el formulario aquí</h2>
-        </mj-text>
         <mj-divider border-color="#e6323e" padding-bottom="10px"></mj-divider>
     </mj-column>
     </mj-section>
 
-       <mj-section >
-        <mj-column width="50%">
-            <mj-button width="200px" background-color="#000000">
-                NOMBRE
-            </mj-button>
-            <mj-button width="200px" background-color="#000000">
-                APELLIDO
-            </mj-button>
-        </mj-column>
-
-        <mj-column width="50%">
-            <mj-button width="200px" background-color="#000000">
-                TELÉFONO
-            </mj-button>
-            <mj-button width="200px" background-color="#000000">
-                CIUDAD
-            </mj-button>
-        </mj-column>
-
-        <mj-column width="50%">
-            <mj-button width="200px" background-color="#000000">
-                CORREO
-            </mj-button>
-        </mj-column>
-        <mj-column width="50%">
-            <mj-button width="200px" background-color="#000000">
-                EDAD
-            </mj-button>
-        </mj-column>
-    </mj-section>
-    
     <mj-section>
-    <mj-column >
+      <mj-column>
+        <mj-button href="[Link to your Feria entry form]" background-color="#e6323e" color="#ffffff" font-size="18px" border-radius="5px" padding="10px 25px">
+          Rellena el Formulario Aquí
+        </mj-button>
         <mj-text align="center" font-size="14px" padding-top="10px" color="#555555">
           ¡No dejes pasar esta oportunidad!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+     <mj-section background-color="#000000" padding-top="20px" padding-bottom="20px">
+      <mj-column>
+        <mj-social font-size="20px" icon-size="30px" mode="horizontal" padding-bottom="15px">
+          <mj-social-element name="facebook" href="https://www.facebook.com/feriavalencia/?locale=es_ES" background-color="#3b5998"></mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/feriavalencia/?hl=es" background-color="#E4405F"></mj-social-element>
+          <mj-social-element name="x" href="https://x.com/feria_valencia?lang=es" background-color="#00ACEE"></mj-social-element>
+          </mj-social>
+
+        <mj-text align="center" font-size="14px" color="#ffffff" padding-bottom="10px">
+          <a href="https://dosruedas.feriavalencia.com/" style="color:rgb(248, 248, 248);">Visita Nuestra Web: Feria Dos Ruedas</a>
+  
+            <a href="https://www.feriavalencia.com/" style="color:rgb(255, 255, 255);">Visita Nuestra Web: Feria Valencia</a>
+        </mj-text>
+
+        <mj-text align="center" font-size="12px" color="#ffffff">
+          NOV-2025  © Feria Dos Ruedas. Exposición en Feria Valencia.
         </mj-text>
       </mj-column>
     </mj-section>
