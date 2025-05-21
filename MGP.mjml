@@ -25,7 +25,7 @@
 
     <mj-section>
       <mj-column background-color="#e6323e">
-        <mj-text align="center">
+        <mj-text align="center" color="#FFFFFF">
           <h2>¡La Feria Dos Ruedas te lleva al GP de Motociclismo de Cheste!</h2>
         </mj-text>
       </mj-column>
@@ -41,15 +41,16 @@
         </mj-column>
         <mj-column padding="15px">
           <mj-text align="justify">
-            <h4>¡Es tu oportunidad de ver a los mejores pilotos y sentir la adrenalina de las motos!</h4>
+            <h3>¡Es tu oportunidad de ver a los mejores pilotos y sentir la adrenalina de las motos!</h3>
           </mj-text>
+          <mj-image src="imagenes/carrera.jpg" alt="" />
         </mj-column>
       </mj-group>
     </mj-section>
 
         <mj-section>
       <mj-column background-color="#e6323e">
-        <mj-text align="center">
+        <mj-text align="center" color="#FFFFFF">
           <h2>¿Cómo participar? ¡Es muy sencillo!</h2>
         </mj-text>
       </mj-column>
@@ -57,16 +58,64 @@
 
     <mj-section>
       <mj-group>
-        <mj-column  padding="15px">
+        <mj-column vertical-align="middle">
         <mj-image src="imagenes/cheste-removebg-preview.png" alt="" />
         </mj-column>
-        <mj-column padding="15px">
+        <mj-column vertical-align="middle">
           <mj-text align="justify">
             <h3>Solo tienes que cumplimentar el formulario de registro para las entradas a la Feria Dos Ruedas.</h3>
             <h3>¡Asegúrate de hacerlo <span style="color: #e6323e">antes del 1 de septiembre!</span></h3>
           </mj-text>
         </mj-column>
       </mj-group>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text align="center">
+            <h2>Rellena el formulario aquí</h2>
+        </mj-text>
+        <mj-divider border-color="#e6323e" padding-bottom="10px"></mj-divider>
+    </mj-column>
+    </mj-section>
+
+       <mj-section >
+        <mj-column width="50%">
+            <mj-button width="200px" background-color="#000000">
+                NOMBRE
+            </mj-button>
+            <mj-button width="200px" background-color="#000000">
+                APELLIDO
+            </mj-button>
+        </mj-column>
+
+        <mj-column width="50%">
+            <mj-button width="200px" background-color="#000000">
+                TELÉFONO
+            </mj-button>
+            <mj-button width="200px" background-color="#000000">
+                CIUDAD
+            </mj-button>
+        </mj-column>
+
+        <mj-column width="50%">
+            <mj-button width="200px" background-color="#000000">
+                CORREO
+            </mj-button>
+        </mj-column>
+        <mj-column width="50%">
+            <mj-button width="200px" background-color="#000000">
+                EDAD
+            </mj-button>
+        </mj-column>
+    </mj-section>
+    
+    <mj-section>
+    <mj-column >
+        <mj-text align="center" font-size="14px" padding-top="10px" color="#555555">
+          ¡No dejes pasar esta oportunidad!
+        </mj-text>
+      </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
