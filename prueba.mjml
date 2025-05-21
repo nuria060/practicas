@@ -1,0 +1,144 @@
+
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-class name="blue-big" color="blue" font-size="20px" font-family="Arial"/>
+        </mj-attributes>
+    </mj-head>
+  <mj-body background-color="white">
+  
+    <mj-section>
+      <mj-column>
+        <mj-image width="100px" src="https://mjml.io/assets/img/logo-small.png"/>
+        <mj-divider border-color="#F45E43" padding-bottom="10px"></mj-divider>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ef6451">
+      <mj-column>
+        <mj-navbar base-url="https://mjml.io" hamburger="hamburger" ico-color="#ffffff">
+          <mj-navbar-link href="/gettings-started-onboard" color="#ffffff">Getting started</mj-navbar-link>
+          <mj-navbar-link href="/try-it-live" color="#ffffff">Try it live</mj-navbar-link>
+          <mj-navbar-link href="/templates" color="#ffffff">Templates</mj-navbar-link>
+          <mj-navbar-link href="/components" color="#ffffff">Components</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+        <mj-column>
+            <mj-text font-size="20px" color="#F45E43" font-family="helvetica">Hello World</mj-text>
+            <mj-button href="https://www.youtube.com/watch?v=RpsSO4iUraA">
+                Boton
+            </mj-button>
+        </mj-column>
+    </mj-section>
+
+    <mj-section>
+        <mj-column width="100%">
+            <mj-text mj-class="blue-big" align="center" font-size="12px" color="blue" font-weight="bold" font-style="italic">
+                Este es un texto de prueba el cual esta centrado</mj-text>
+                <mj-spacer height="50px" />
+            <mj-text>Cualquier elemento mj incluido en una columna tendrá un width equivalente al 100% del ancho de esta columna.</mj-text>
+
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fbfbfb">
+        <mj-column>
+            <mj-image width="100px" src="https://mjml.io/assets/img/logo-small.png" />
+        </mj-column>
+
+        <mj-column>
+            <mj-image width="100px" src="https://mjml.io/assets/img/logo-small.png" />
+        </mj-column>
+
+        <mj-column>
+            <mj-image width="100px" src="https://mjml.io/assets/img/logo-small.png" />
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#e7e7e7">
+        <mj-column>
+            <mj-social>
+            <mj-social-element name="facebook" href="https://www.facebook.com">Share</mj-social-element>
+            </mj-social>
+        </mj-column>
+
+        <mj-column>
+            <mj-social>
+            <mj-social-element name="instagram" href="https://www.instagram.com">Share</mj-social-element>
+            </mj-social>
+        </mj-column>
+
+        <mj-column>
+            <mj-social>
+            <mj-social-element name="google" href="https://www.instagram.com">Share</mj-social-element>
+            </mj-social>
+        </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-divider border-width="5px" border-style="dashed" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+
+     <mj-section>
+      <mj-group>
+        <mj-column>
+          <mj-image width="137px" height="185px" padding="0" src="https://mjml.io/assets/img/easy-and-quick.png" />
+          <mj-text align="center">
+            <h2>Easy and quick</h2>
+            <p>Write less code, save time and code more efficiently with MJML’s semantic syntax.</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image width="166px" height="185px" padding="0" src="https://mjml.io/assets/img/responsive.png" />
+          <mj-text align="center">
+            <h2>Responsive</h2>
+            <p>MJML is responsive by design on most-popular email clients, even Outlook.</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-table>
+          <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:15px 0;">
+            <th style="padding: 0 15px 0 0;">Year</th>
+            <th style="padding: 0 15px;">Language</th>
+            <th style="padding: 0 0 0 15px;">Inspired from</th>
+          </tr>
+          <tr>
+            <td style="padding: 0 15px 0 0;">1995</td>
+            <td style="padding: 0 15px;">PHP</td>
+            <td style="padding: 0 0 0 15px;">C, Shell Unix</td>
+          </tr>
+          <tr>
+            <td style="padding: 0 15px 0 0;">1995</td>
+            <td style="padding: 0 15px;">JavaScript</td>
+            <td style="padding: 0 0 0 15px;">Scheme, Self</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper border="1px solid #000000" padding="50px 30px">
+      <mj-section border-top="1px solid #aaaaaa" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px">
+        <mj-column>
+          <mj-image padding="0" src="https://cloud.githubusercontent.com/assets/1830348/15354890/1442159a-1cf0-11e6-92b1-b861dadf1750.jpg" />
+        </mj-column>
+      </mj-section>
+      <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
+        <mj-column border="1px solid #dddddd">
+          <mj-text padding="20px"> First line of text </mj-text>
+          <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" padding="0 20px" />
+          <mj-text padding="20px"> Second line of text </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>

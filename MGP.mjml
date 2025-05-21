@@ -1,0 +1,14 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="blue-big" color="blue" font-size="20px" font-family="Arial" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section border="20px" >
+      <mj-column>
+        <mj-image padding="0" src="imagenes/Cabecera_mail_2Ruedas_2024_expositores.jpg" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
