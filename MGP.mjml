@@ -1,14 +1,72 @@
 <mjml>
   <mj-head>
     <mj-attributes>
-      <mj-class name="blue-big" color="blue" font-size="20px" font-family="Arial" />
+      <mj-class name="sorteu" color="#e6323e" font-size="20px" full-width="full-width" />
+
     </mj-attributes>
   </mj-head>
+
   <mj-body>
-    <mj-section border="20px" >
-      <mj-column>
-        <mj-image padding="0" src="imagenes/Cabecera_mail_2Ruedas_2024_expositores.jpg" />
+    <mj-wrapper>
+      <mj-section full-width="full-width" background-color="#000000">
+        <mj-column>
+          <mj-text mj-class="sorteu" align="center" font-family="roboto" font-size="20px" font-weight="bold">
+            <h2>¡GRAN SORTEO!</h2>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-image padding="0" src="imagenes/Cabecera_mail_2Ruedas_2024_expositores.jpg" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section>
+      <mj-column background-color="#e6323e">
+        <mj-text align="center">
+          <h2>¡La Feria Dos Ruedas te lleva al GP de Motociclismo de Cheste!</h2>
+        </mj-text>
       </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-group>
+        <mj-column border-right="2px solid #000000" padding="15px">
+          <mj-text align="justify">
+            <h3>¿Te gustaría vivir la emoción de la velocidad en directo?</h3>
+            <h3>En la Feria Dos Ruedas, <span style="color: #e6323e">sorteamos dos entradas dobles</span> para el apasionante Gran Premio de Motociclismo de Cheste.</34>
+          </mj-text>
+        </mj-column>
+        <mj-column padding="15px">
+          <mj-text align="justify">
+            <h4>¡Es tu oportunidad de ver a los mejores pilotos y sentir la adrenalina de las motos!</h4>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+        <mj-section>
+      <mj-column background-color="#e6323e">
+        <mj-text align="center">
+          <h2>¿Cómo participar? ¡Es muy sencillo!</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-group>
+        <mj-column  padding="15px">
+        <mj-image src="imagenes/cheste-removebg-preview.png" alt="" />
+        </mj-column>
+        <mj-column padding="15px">
+          <mj-text align="justify">
+            <h3>Solo tienes que cumplimentar el formulario de registro para las entradas a la Feria Dos Ruedas.</h3>
+            <h3>¡Asegúrate de hacerlo <span style="color: #e6323e">antes del 1 de septiembre!</span></h3>
+          </mj-text>
+        </mj-column>
+      </mj-group>
     </mj-section>
   </mj-body>
 </mjml>
